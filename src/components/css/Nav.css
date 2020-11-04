@@ -1,0 +1,86 @@
+.navbar {
+  background-color: rgb(12, 38, 58, 0.6);
+}
+
+.navbar-collapse {
+  align-items: start;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  border: 0.1px solid rgb(255, 255, 255, 0.2);
+  border-radius: 0.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-brand {
+  width: 5%;
+}
+
+.show {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.nav-links {
+  width: 45%;
+  float: left;
+}
+
+.nav-link {
+  float: left;
+}
+
+/* Search */
+.searchFormDiv {
+  width: 50%;
+}
+
+.searchFormDiv .form-inline {
+  float: right !important;
+}
+
+#citySearchInput {
+  font-size: 15px;
+  padding: 0.2rem 0.3rem;
+}
+
+#citySearchBtn {
+  font-size: 15px;
+  padding: 0.4rem 0.4rem;
+}
+
+#citySearchBtn:hover {
+  background-color: #194f6f;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .searchFormDiv .form-inline {
+    float: left !important;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #citySearchBtn {
+    padding: 0.275rem 0.55rem;
+  }
+
+  .searchFormDiv {
+    width: 80%;
+  }
+
+  #citySearchInput {
+    width: 65%;
+    margin-right: 8px;
+    padding: 0.2rem 0.45rem;
+    font-size: 15px;
+  }
+}
