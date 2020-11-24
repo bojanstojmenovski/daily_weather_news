@@ -5,8 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Nav from "./components/Nav";
 import Home from "./components/Home";
-import Statistics from "./components/Statistics";
-import Hourly from "./components/Hourly";
 import About from "./components/About";
 import WeatherDataProvider from "./utilities/WeatherData";
 
@@ -18,8 +16,6 @@ function App() {
           <Nav />
           <Switch>
             <Route path={"/"} exact component={Home} />
-            <Route path={"/statistics"} component={Statistics} />
-            <Route path={"/hourly"} component={Hourly} />
             <Route path={"/about"} component={About} />
           </Switch>
         </WeatherDataProvider>

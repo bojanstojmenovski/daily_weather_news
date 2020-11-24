@@ -3,14 +3,14 @@ import "./css/PageView.css";
 import { WeatherData } from "../utilities/WeatherData";
 
 const Statistics = () => {
-  const { calculatedStats } = useContext(WeatherData);
+  const { weatherData, calculatedStats } = useContext(WeatherData);
   const { temperature, humidity, warmestTime, coldestTime } = calculatedStats;
   return (
     <div className="stats-div">
-      <h1>Statistics of the day</h1>
-      <p>
+      {weatherData.city && ( <h1>Statistics of the day for {weatherData.city.name}</h1> )}
+      {!weatherData.city && ( <p>
         <i>Please enter a city in the Search bar to see the Daily Statistics</i>
-      </p>
+      </p> )}
       {temperature && (
         <div className="stats-result">
           <div className="row">
@@ -59,6 +59,6 @@ const Statistics = () => {
       )}
     </div>
   );
-};
+}; 
 
 export default Statistics;

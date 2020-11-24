@@ -13,18 +13,12 @@ class NavLinks extends Component {
       navLinks: [
         {
           id: 1,
-          name: "Statistics",
-          path: "/statistics",
-          linkRef: this.statisticsRef,
+          name: "Home",
+          path: "/",
+          linkRef: this.homeRef,
         },
         {
           id: 2,
-          name: "Hourly",
-          path: "/hourly",
-          linkRef: this.hourlyRef,
-        },
-        {
-          id: 3,
           name: "About",
           path: "/about",
           linkRef: this.aboutRef,
@@ -34,8 +28,7 @@ class NavLinks extends Component {
   }
 
   onActivateItem = (item) => {
-    this.statisticsRef.classList.remove("active");
-    this.hourlyRef.classList.remove("active");
+    this.homeRef.classList.remove("active");
     this.aboutRef.classList.remove("active");
     item.classList.add("active");
   };
@@ -45,21 +38,12 @@ class NavLinks extends Component {
       <div className="nav-links">
         <ul className="navbar-nav mr-auto mt-lg-0">
           <li
-            className="nav-item"
-            ref={(li) => (this.statisticsRef = li)}
-            onClick={() => this.onActivateItem(this.statisticsRef)}
+            className="nav-item active"
+            ref={(li) => (this.homeRef = li)}
+            onClick={() => this.onActivateItem(this.homeRef)}
           >
-            <Link className="nav-link" to={"/statistics"}>
-              Statistics
-            </Link>
-          </li>
-          <li
-            className="nav-item"
-            ref={(li) => (this.hourlyRef = li)}
-            onClick={() => this.onActivateItem(this.hourlyRef)}
-          >
-            <Link className="nav-link" to={"/hourly"}>
-              Hourly
+            <Link className="nav-link" to={"/"}>
+              Home
             </Link>
           </li>
           <li

@@ -3,14 +3,17 @@
   src: url(../css/fonts/Lato/Lato-Regular.ttf);
 }
 
-.stats-div h1,
-.hourly-div h1,
 .about-div h1,
 .home-div h1 {
   margin-top: 50px;
   font-family: Lato;
   font-weight: 500;
   color: white; /* #3c8196; */
+}
+
+.stats-div h1,
+.hourly-div h1 {
+  font-size: 2rem;
 }
 
 .stats-div p,
@@ -21,7 +24,7 @@
   font-size: 15px;
   font-weight: 300;
   color: whitesmoke;
-  margin: 30px 0;
+  margin: 60px 0;
 }
 
 .row {
@@ -31,6 +34,16 @@
 
 .row .col-md-2 {
   margin: auto;
+}
+
+#data-type-select {
+  float: right;
+  margin-right: 80px;
+  padding: 5px 10px;
+  background-color: #10364f;
+  color: white;
+  border: 1px solid;
+  border-radius: 0.3rem;
 }
 
 /* Statistics page */
@@ -67,7 +80,7 @@
   color: #a2cede;
 }
 
-/* Hourly page */
+/* Hourly  */
 .hourly-div {
   padding: 0 15px;
 }
@@ -105,9 +118,9 @@
 }
 
 @media only screen and (max-width: 1160px) {
-  /* Statistics Page */
+  /* Statistics  */
 
-  /* Hourly Page */
+  /* Hourly  */
   .row {
     display: flex;
     flex-flow: row nowrap;
@@ -121,12 +134,12 @@
 }
 
 @media only screen and (max-width: 769px) {
-  /* Statistics Page */
+  /* Statistics  */
   .stats-result .row .col-md-6 {
     font-size: 20px;
   }
 
-  /* Hourly Page */
+  /* Hourly  */
   .hourly-div .row {
     width: 95% !important;
   }
@@ -151,9 +164,9 @@
 }
 
 @media only screen and (max-width: 415px) {
-  /* Statistics Page */
+  /* Statistics  */
 
-  /* Hourly Page */
+  /* Hourly  */
   .hourly-div .row {
     width: 100% !important;
   }
