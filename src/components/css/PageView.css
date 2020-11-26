@@ -8,12 +8,13 @@
   margin-top: 50px;
   font-family: Lato;
   font-weight: 500;
+  font-size: 30px;
   color: white; /* #3c8196; */
 }
 
 .stats-div h1,
 .hourly-div h1 {
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .stats-div p,
@@ -46,12 +47,18 @@
   border-radius: 0.3rem;
 }
 
+.home-div {
+  max-width: 1000px;
+  margin: auto;
+}
+
 /* Statistics page */
 .stats-div .stats-result {
   font-family: Lato;
   font-size: 23px;
   font-weight: 600;
   width: 80%;
+  max-width: 1000px;
   margin: 30px auto;
   padding: 5% 0;
   border: 1px solid grey;
