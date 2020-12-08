@@ -15,14 +15,13 @@ const Search = (props) => {
           aria-label="City"
           ref={(input) => (searchInputRef = input)}
         />
-        <button
+        <img
           id="citySearchBtn"
-          type="button"
+          src={require("../img/icons/search_white.png")}
+          alt="icon"
           className="btn btn-outline-light my-2 my-sm-0"
           onClick={() => searchCity(searchInputRef.value)}
-        >
-          Search
-        </button>
+        />
       </form>
     </div>
   );
