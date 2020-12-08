@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "240b2dca699db661c388418d33ef21e7",
+    "revision": "3511b0876c3e88479d74f95aa4dba91d",
     "url": "/daily_weather_news/index.html"
   },
   {
-    "revision": "711411c199696d2cc3a2",
+    "revision": "cc390856633916f7077f",
     "url": "/daily_weather_news/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "64d18037257dc05a5076",
+    "revision": "b1f5d84686d54e6c2619",
     "url": "/daily_weather_news/static/css/main.eafd973f.chunk.css"
   },
   {
-    "revision": "711411c199696d2cc3a2",
-    "url": "/daily_weather_news/static/js/2.7d056708.chunk.js"
+    "revision": "cc390856633916f7077f",
+    "url": "/daily_weather_news/static/js/2.3d5a4fcc.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/daily_weather_news/static/js/2.7d056708.chunk.js.LICENSE.txt"
+    "url": "/daily_weather_news/static/js/2.3d5a4fcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64d18037257dc05a5076",
-    "url": "/daily_weather_news/static/js/main.fdbc76a4.chunk.js"
+    "revision": "b1f5d84686d54e6c2619",
+    "url": "/daily_weather_news/static/js/main.5aba567c.chunk.js"
   },
   {
     "revision": "8cc77fb9d9bc81da0f17",
