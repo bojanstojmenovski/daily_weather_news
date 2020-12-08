@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/daily_weather_news/static/css/main.eafd973f.chunk.css",
-    "main.js": "/daily_weather_news/static/js/main.7f28ccad.chunk.js",
-    "main.js.map": "/daily_weather_news/static/js/main.7f28ccad.chunk.js.map",
+    "main.js": "/daily_weather_news/static/js/main.fdbc76a4.chunk.js",
+    "main.js.map": "/daily_weather_news/static/js/main.fdbc76a4.chunk.js.map",
     "runtime-main.js": "/daily_weather_news/static/js/runtime-main.626934b1.js",
     "runtime-main.js.map": "/daily_weather_news/static/js/runtime-main.626934b1.js.map",
     "static/css/2.2a86faee.chunk.css": "/daily_weather_news/static/css/2.2a86faee.chunk.css",
-    "static/js/2.de80a6db.chunk.js": "/daily_weather_news/static/js/2.de80a6db.chunk.js",
-    "static/js/2.de80a6db.chunk.js.map": "/daily_weather_news/static/js/2.de80a6db.chunk.js.map",
+    "static/js/2.7d056708.chunk.js": "/daily_weather_news/static/js/2.7d056708.chunk.js",
+    "static/js/2.7d056708.chunk.js.map": "/daily_weather_news/static/js/2.7d056708.chunk.js.map",
     "index.html": "/daily_weather_news/index.html",
-    "precache-manifest.a8ab702fabc3d6dc57aefaa7b11841f7.js": "/daily_weather_news/precache-manifest.a8ab702fabc3d6dc57aefaa7b11841f7.js",
+    "precache-manifest.095577a5724996081f7080b6293d3422.js": "/daily_weather_news/precache-manifest.095577a5724996081f7080b6293d3422.js",
     "service-worker.js": "/daily_weather_news/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/daily_weather_news/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.eafd973f.chunk.css.map": "/daily_weather_news/static/css/main.eafd973f.chunk.css.map",
-    "static/js/2.de80a6db.chunk.js.LICENSE.txt": "/daily_weather_news/static/js/2.de80a6db.chunk.js.LICENSE.txt",
+    "static/js/2.7d056708.chunk.js.LICENSE.txt": "/daily_weather_news/static/js/2.7d056708.chunk.js.LICENSE.txt",
     "static/media/PageView.css": "/daily_weather_news/static/media/rainy_clouds.ade49d8d.jpg",
     "static/media/cloud.svg": "/daily_weather_news/static/media/cloud.e56667f3.svg",
     "static/media/few_clouds.svg": "/daily_weather_news/static/media/few_clouds.1739930d.svg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.626934b1.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.de80a6db.chunk.js",
+    "static/js/2.7d056708.chunk.js",
     "static/css/main.eafd973f.chunk.css",
-    "static/js/main.7f28ccad.chunk.js"
+    "static/js/main.fdbc76a4.chunk.js"
   ]
 }
