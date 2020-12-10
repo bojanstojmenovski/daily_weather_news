@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/daily_weather_news/static/css/main.d8a1d71c.chunk.css",
-    "main.js": "/daily_weather_news/static/js/main.5aba567c.chunk.js",
-    "main.js.map": "/daily_weather_news/static/js/main.5aba567c.chunk.js.map",
+    "main.css": "/daily_weather_news/static/css/main.b5f3b8df.chunk.css",
+    "main.js": "/daily_weather_news/static/js/main.7b2cba78.chunk.js",
+    "main.js.map": "/daily_weather_news/static/js/main.7b2cba78.chunk.js.map",
     "runtime-main.js": "/daily_weather_news/static/js/runtime-main.626934b1.js",
     "runtime-main.js.map": "/daily_weather_news/static/js/runtime-main.626934b1.js.map",
     "static/css/2.2a86faee.chunk.css": "/daily_weather_news/static/css/2.2a86faee.chunk.css",
     "static/js/2.3d5a4fcc.chunk.js": "/daily_weather_news/static/js/2.3d5a4fcc.chunk.js",
     "static/js/2.3d5a4fcc.chunk.js.map": "/daily_weather_news/static/js/2.3d5a4fcc.chunk.js.map",
     "index.html": "/daily_weather_news/index.html",
-    "precache-manifest.cb07b03ef62f26aab9276fb1aba9fcc1.js": "/daily_weather_news/precache-manifest.cb07b03ef62f26aab9276fb1aba9fcc1.js",
+    "precache-manifest.c61b1c5a3da6801e47e9ad39e198f386.js": "/daily_weather_news/precache-manifest.c61b1c5a3da6801e47e9ad39e198f386.js",
     "service-worker.js": "/daily_weather_news/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/daily_weather_news/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.d8a1d71c.chunk.css.map": "/daily_weather_news/static/css/main.d8a1d71c.chunk.css.map",
+    "static/css/main.b5f3b8df.chunk.css.map": "/daily_weather_news/static/css/main.b5f3b8df.chunk.css.map",
     "static/js/2.3d5a4fcc.chunk.js.LICENSE.txt": "/daily_weather_news/static/js/2.3d5a4fcc.chunk.js.LICENSE.txt",
     "static/media/PageView.css": "/daily_weather_news/static/media/rainy_clouds.ade49d8d.jpg",
     "static/media/cloud.svg": "/daily_weather_news/static/media/cloud.e56667f3.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.626934b1.js",
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.3d5a4fcc.chunk.js",
-    "static/css/main.d8a1d71c.chunk.css",
-    "static/js/main.5aba567c.chunk.js"
+    "static/css/main.b5f3b8df.chunk.css",
+    "static/js/main.7b2cba78.chunk.js"
   ]
 }
