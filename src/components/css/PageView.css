@@ -46,8 +46,9 @@
 
 #data-type-select {
   float: right;
+  font-size: 14px;
   margin-right: 80px;
-  padding: 5px 10px;
+  padding: 5px;
   background-color: transparent;
   color: white;
   border: 1px solid !important;
@@ -183,6 +184,16 @@
   .about-div h1,
   .home-div h1 {
     font-size: 23px;
+    margin-bottom: 30px;
+  }
+
+  .stats-div h1,
+  .hourly-div h1 {
+    margin-top: 80px;
+  }
+
+  .initial-msg {
+    margin-top: 80px !important;
   }
 
   #data-type-select {
@@ -190,6 +201,10 @@
   }
 
   /* Statistics  */
+  .stats-result .row {
+    display: flex;
+    flex-flow: column nowrap;
+  }
 
   /* Hourly  */
   .hourly-div .row {

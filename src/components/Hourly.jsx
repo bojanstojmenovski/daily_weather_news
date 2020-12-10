@@ -10,7 +10,7 @@ const Hourly = () => {
       {weatherData.city && ( <h1>Hourly Weather Report for <span class="city-name">{weatherData.city.name}</span></h1> )}
       {weatherData.city && ( <p>Here you can read the hourly weather report for the following days.
           Keep in mind that it is not actually every hour, but every 3 - 5 hours</p> )}
-      {!weatherData.city && ( <p>Please enter a city in the Search bar to see the Hourly Weather Report</p> )}
+      {!weatherData.city && ( <p class="initial-msg" >Please enter a city in the Search bar to see the Hourly Weather Report</p> )}
       {weatherData.list && (
         <div className="hourly-result">
           {/* <div className="row">
