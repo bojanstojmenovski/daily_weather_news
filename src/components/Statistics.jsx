@@ -8,7 +8,7 @@ const Statistics = () => {
   return (
     <div className="stats-div">
       {weatherData.city && ( <h1>Statistics of the day for {weatherData.city.name}</h1> )}
-      {!weatherData.city && ( <p class="initial-msg" >Please enter a city in the Search bar to see the Daily Statistics</p> )}
+      {!weatherData.city && ( <p className="initial-msg" >Please enter a city in the Search bar to see the Daily Statistics</p> )}
       {temperature && (
         <div className="stats-result">
           <div className="row">
