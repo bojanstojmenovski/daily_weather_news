@@ -12,7 +12,7 @@ const Search = (props) => {
           className="form-control mr-sm-2"
           type="search"
           placeholder="Enter City Here"
-          aria-label="City"
+          autoComplete="off"
           ref={(input) => (searchInputRef = input)}
         />
         <img
